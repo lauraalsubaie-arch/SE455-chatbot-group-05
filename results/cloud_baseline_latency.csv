@@ -1,0 +1,2 @@
+approach,n_requests,errors,avg_latency_ms,min_latency_ms,max_latency_ms,p95_latency_ms,p99_latency_ms
+Cloud (simulated),50,0,61.29,54.16,76.81,65.08,73.12

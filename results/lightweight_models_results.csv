@@ -1,0 +1,4 @@
+model,accuracy,f1_weighted,avg_latency_ms,p95_latency_ms,memory_delta_mb,model_size_kb
+DecisionTree,1.0,1.0,0.043,0.039,2.58,2.1
+RandomForest,1.0,1.0,0.406,0.459,0.02,93.4
+GradientBoosting,1.0,1.0,0.369,0.393,0.03,256.9

@@ -1,0 +1,6 @@
+model,approach,accuracy,f1_weighted,avg_latency_ms,p95_latency_ms,memory_mb,model_size_kb,privacy,offline_capable
+DecisionTree,Edge (On-Device),1.0,1.0,0.039,0.043,1.0,2.1,High (no data leaves device),Yes
+RandomForest,Edge (On-Device),1.0,1.0,0.433,0.454,1.0,93.4,High (no data leaves device),Yes
+GradientBoosting,Edge (On-Device),1.0,1.0,0.379,0.388,0.1,256.9,High (no data leaves device),Yes
+DistilBERT (SLM),Edge (On-Device),,,,,,,High (no data leaves device),Yes
+Cloud LLM API,Cloud (Remote),0.95,0.94,61.29,65.08,,,Low (data sent to remote server),No
